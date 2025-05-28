@@ -11,14 +11,14 @@ function Main() {
     return (
         <div className='main'>
             <div className='nav'>
-                <p>PK</p>
+                <p>PK Chatbot</p>
                 <img src={assets.user_icon} alt="" />
             </div>
             <div className="container">
                 {!showResult ? (
                     <>
                         <div className="greet">
-                            <p><span>Hello G    uys</span></p>
+                            <p><span>Hello Guys</span></p>
                             <p>How can I help you today?</p>
                         </div>
                         <div className="cards">
